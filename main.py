@@ -39,7 +39,7 @@ while x:
             k += 1
     print('your score: ' + str(int(k)) + '/5')
     print('_____________________')
-    if input('do you want to play once more: (yes/no) ').upper() == 'YES':
+    if 'YES' in input('do you want to play once more: (yes/no) ').upper():
         pass
     else:
         x = False
